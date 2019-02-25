@@ -1,13 +1,26 @@
 # In-Class-Behavior-Analyzer-FrontEnd
 
+**Team members:**
+  Vanessa Covarrubias, 
+  Ben Lawson, 
+  Cody Tebbe
+
+## About
+
+The client, Gary, wants a mobile application to be installed by students in a specific classroom. Students and instructors will be able to sign up. They'll be able to give their demographic information. Their movements will be tracked inside a pre-configured classroom. At the end of the class, they will be presented with a survey about their specific movements. 
+
+The Admin Webpage should allow admin to access this data and will allow admin to add users to the database.
+
+Contact: Gary Pavlechko
+Title: Director of Interactive Learning Spaces and Faculty Learning Communities at Ball State University
+Email: gpavlech@bsu.edu
+
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
 * [Fork, Clone, or Download on GitHub](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd.git)
 * Access the website by copying and pasting the following link on your prefered browser:
 157.230.191.243
-
-## About
 
 ## Copyright and License
 
