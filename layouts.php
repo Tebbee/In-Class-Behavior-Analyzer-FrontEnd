@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Student Table</title>
+    <title>SB Admin - Room Layouts</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -83,14 +83,15 @@
                     <a class="dropdown-item" href="login.html">Login</a>
                     <a class="dropdown-item" href="register.html">Register</a>
                     <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                    
                 </div>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="students.php">
-                    <i class="fas fa-fw fa-stuent-area"></i>
+                    <i class="fas fa-fw fa-student-area"></i>
                     <span>Student</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="layouts.php">
                     <i class="fas fa-fw fa-layout"></i>
                     <span>Room Layouts</span></a>
@@ -111,7 +112,7 @@
                     <li class="breadcrumb-item">
                         <a href="#">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item active">Student</li>
+                    <li class="breadcrumb-item active">Room Layouts</li>
                 </ol>
 
                 <!-- DataTables Example -->
@@ -123,42 +124,32 @@
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Username</th>
-                                        <th>Email</th>
-                                        <th>Password</th>
-                                        <th>Grade Year</th>
-                                        <th>Major</th>
-                                        <th>Gender</th>
-                                        <th>Race</th>
-                                        <th>Ethnicity</th>
+                                        <th>Student ID</th>
+                                        <th>Start date time</th>
+                                        <th>End date time</th>
+                                        <th>X position</th>
+                                        <th>Y position</th>
                                     </tr>
                                 </thead>
                                 <tfoot>
                                     <tr>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Username</th>
-                                        <th>Email</th>
-                                        <th>Password</th>
-                                        <th>Grade Year</th>
-                                        <th>Major</th>
-                                        <th>Gender</th>
-                                        <th>Race</th>
-                                        <th>Ethnicity</th>
+                                        <th>Student ID</th>
+                                        <th>Start date time</th>
+                                        <th>End date time</th>
+                                        <th>X position</th>
+                                        <th>Y position</th>
                                     </tr>
                                 </tfoot>
                                 <tbody>
-                                   <?php
+                                    <?php
                                     
                                    ini_set('display_errors', 1);
                                    ini_set('display_startup_errors', 1);
                                    error_reporting(E_ALL);
-                                   $configs = include('config.php');
+                                   $configs = include('config_l.php');
                                     
                                    require('database.php'); 
-                                    $sql = "SELECT * FROM student_info";
+                                    $sql = "SELECT * FROM position_info";
                                     $result = mysqli_fetch_all($conn->query($sql));
                                     $countResults = count($result);
                                     for($x = 0; $x<=$countResults-1; $x++){
@@ -168,11 +159,6 @@
                                             echo "<td>".$result[$x][2]."</td>";
                                             echo "<td>".$result[$x][3]."</td>";
                                             echo "<td>".$result[$x][4]."</td>";
-                                            echo "<td>".$result[$x][5]."</td>";
-                                            echo "<td>".$result[$x][6]."</td>";
-                                            echo "<td>".$result[$x][7]."</td>";
-                                            echo "<td>".$result[$x][8]."</td>";
-                                            echo "<td>".$result[$x][9]."</td>";
                                         echo "</tr>";
                                     }
                                     $conn->close();
@@ -182,7 +168,6 @@
                             </table>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -190,10 +175,7 @@
 
             <!-- Sticky Footer -->
             <footer class="sticky-footer">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                    </div>
-                </div>
+                
             </footer>
 
         </div>

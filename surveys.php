@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Student Table</title>
+    <title>SB Admin - Survey Table</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,6 +49,7 @@
 
         <!-- Navbar -->
         <ul class="navbar-nav ml-auto ml-md-0">
+            
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-user-circle fa-fw"></i>
@@ -83,9 +84,10 @@
                     <a class="dropdown-item" href="login.html">Login</a>
                     <a class="dropdown-item" href="register.html">Register</a>
                     <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+            
                 </div>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="students.php">
                     <i class="fas fa-fw fa-stuent-area"></i>
                     <span>Student</span></a>
@@ -95,7 +97,7 @@
                     <i class="fas fa-fw fa-layout"></i>
                     <span>Room Layouts</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="surveys.php">
                     <i class="fas fa-fw fa-survey"></i>
                     <span>Survey</span></a>
@@ -111,7 +113,7 @@
                     <li class="breadcrumb-item">
                         <a href="#">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item active">Student</li>
+                    <li class="breadcrumb-item active">Survey</li>
                 </ol>
 
                 <!-- DataTables Example -->
@@ -123,42 +125,32 @@
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Username</th>
-                                        <th>Email</th>
-                                        <th>Password</th>
-                                        <th>Grade Year</th>
-                                        <th>Major</th>
-                                        <th>Gender</th>
-                                        <th>Race</th>
-                                        <th>Ethnicity</th>
+                                        <th>Student ID</th>
+                                        <th>Question 1</th>
+                                        <th>Question 2</th>
+                                        <th>Question 3</th>
+                                        <th>Question 4</th>
                                     </tr>
                                 </thead>
                                 <tfoot>
                                     <tr>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Username</th>
-                                        <th>Email</th>
-                                        <th>Password</th>
-                                        <th>Grade Year</th>
-                                        <th>Major</th>
-                                        <th>Gender</th>
-                                        <th>Race</th>
-                                        <th>Ethnicity</th>
+                                        <th>Student ID</th>
+                                        <th>Question 1</th>
+                                        <th>Question 2</th>
+                                        <th>Question 3</th>
+                                        <th>Question 4</th>
                                     </tr>
                                 </tfoot>
                                 <tbody>
-                                   <?php
+                                    <?php
                                     
                                    ini_set('display_errors', 1);
                                    ini_set('display_startup_errors', 1);
                                    error_reporting(E_ALL);
-                                   $configs = include('config.php');
+                                   $configs = include('config_s.php');
                                     
                                    require('database.php'); 
-                                    $sql = "SELECT * FROM student_info";
+                                    $sql = "SELECT * FROM survey_info";
                                     $result = mysqli_fetch_all($conn->query($sql));
                                     $countResults = count($result);
                                     for($x = 0; $x<=$countResults-1; $x++){
@@ -168,11 +160,6 @@
                                             echo "<td>".$result[$x][2]."</td>";
                                             echo "<td>".$result[$x][3]."</td>";
                                             echo "<td>".$result[$x][4]."</td>";
-                                            echo "<td>".$result[$x][5]."</td>";
-                                            echo "<td>".$result[$x][6]."</td>";
-                                            echo "<td>".$result[$x][7]."</td>";
-                                            echo "<td>".$result[$x][8]."</td>";
-                                            echo "<td>".$result[$x][9]."</td>";
                                         echo "</tr>";
                                     }
                                     $conn->close();
@@ -182,7 +169,6 @@
                             </table>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -192,6 +178,7 @@
             <footer class="sticky-footer">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
+                
                     </div>
                 </div>
             </footer>

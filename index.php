@@ -94,12 +94,12 @@
                     <span>Student</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="layouts.html">
+                <a class="nav-link" href="layouts.php">
                     <i class="fas fa-fw fa-layout"></i>
                     <span>Room Layouts</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="surveys.html">
+                <a class="nav-link" href="surveys.php">
                     <i class="fas fa-fw fa-survey"></i>
                     <span>Survey</span></a>
             </li>
@@ -116,6 +116,8 @@
                     </li>
                     <li class="breadcrumb-item active">Overview</li>
                 </ol>
+                <br>
+                
                 <?php
                 error_reporting(E_ALL);
                 ini_set('display_errors', 1);   
@@ -126,7 +128,14 @@
                     $firstname = $_POST['firstname'];
                     $lastname = $_POST['lastname'];
                     $password = $_POST['password'];
-                    $sql = "INSERT INTO student_info (first_name, last_name, username, password) VALUES ('".$firstname."', '".$lastname."', '".$username."', '".$password."')";
+                    $email = $_POST['email'];
+                    $gradeyear = $_POST['gradeyear'];
+                    $major = $_POST['major'];
+                    $gender = $_POST['gender'];
+                    $race = $_POST['race'];
+                    $ethnicity = $_POST['ethnicity'];
+                    
+                    $sql = "INSERT INTO student_info (first_name, last_name, username, email, password, grade_year, major, gender, race, ethnicity) VALUES ('".$firstname."', '".$lastname."', '".$username."', '".$email."', '".$password."', '".$gradeyear."', '".$major."', '".$gender."', '".$race."', '".$ethnicity."')";
                     if($conn->query($sql) === TRUE){
                         echo "We have successfully entered your info.";
                     }
@@ -136,6 +145,7 @@
                 }
                 $conn->close();
                 ?>
+                    <br>
                     <br>
                     <!-- Add User Example-->
                     <div class="container">
@@ -149,6 +159,7 @@
 
                                 <!-- Add User Example------------------------------->
                                 <form  action="" method="POST">
+                                   
                                     <div class="form-group">
                                         <label for="firstname">First Name
                                            <input required type="text" class="form-control" name="firstname" placeholder="Enter first name">
@@ -164,10 +175,39 @@
                                             <input required type="text" class="form-control" name="username" placeholder="Enter username">
                                         </label>
                                     </div>
-
+                                    <div class="form-group">
+                                        <label for="email">Email
+                                            <input required type="text" class="form-control" name="email" placeholder="Enter email">
+                                        </label>
+                                    </div>
                                     <div class="form-group">
                                         <label for="password">Password
                                             <input required type="password" name="password" class="form-control" id="password" placeholder="Enter password">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gradeyear">Grade Year
+                                            <input required type="text" class="form-control" name="gradeyear" placeholder="Enter grade year">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="major">Major
+                                            <input required type="text" class="form-control" name="major" placeholder="Enter major">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gender">Gender
+                                            <input required type="text" class="form-control" name="gender" placeholder="Enter gender">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="race">Race
+                                            <input required type="text" class="form-control" name="race" placeholder="Enter race">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ethnicity">Ethnicity
+                                            <input required type="text" class="form-control" name="ethnicity" placeholder="Enter ethnicity">
                                         </label>
                                     </div>
 
