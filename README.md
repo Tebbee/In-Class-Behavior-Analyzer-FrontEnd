@@ -1,9 +1,10 @@
 # In-Class-Behavior-Analyzer-FrontEnd
 
 **Team members:**
-  Vanessa Covarrubias, 
-  Ben Lawson, 
+  
+  Ben Lawson 
   Cody Tebbe
+  Vanessa Covarrubias
 
 ## About
 
@@ -15,10 +16,8 @@ Contact: Gary Pavlechko
 Title: Director of Interactive Learning Spaces and Faculty Learning Communities at Ball State University
 Email: gpavlech@bsu.edu
 
-## Download and Installation
+## Accessing
 
-To begin using this template, choose one of the following options to get started:
-* [Fork, Clone, or Download on GitHub](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd.git)
 * Access the website by copying and pasting the following link on your prefered browser:
 157.230.191.243
 
