@@ -2,8 +2,8 @@
 
 **Team members:**
   
-  Ben Lawson 
-  Cody Tebbe
+  Ben Lawson, 
+  Cody Tebbe, and
   Vanessa Covarrubias
 
 ## About
