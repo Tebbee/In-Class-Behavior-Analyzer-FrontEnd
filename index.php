@@ -28,82 +28,11 @@
 
 <body id="page-top">
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-
-        <a class="navbar-brand mr-1" href="index.html">Administrator Dashboard</a>
-
-        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-        <i class="fas fa-bars"></i>
-      </button>
-
-        <!-- Navbar Search -->
-        <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">
-              <i class="fas fa-search"></i>
-            </button>
-                </div>
-            </div>
-        </form>
-
-        <!-- Navbar -->
-        <ul class="navbar-nav ml-auto ml-md-0">
-
-
-            <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-user-circle fa-fw"></i>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="#">Settings</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
-                </div>
-            </li>
-        </ul>
-
-    </nav>
+    <?php include_once('navbar.php') ?>
 
     <div id="wrapper">
 
-        <!-- Sidebar -->
-        <ul class="sidebar navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                    <h6 class="dropdown-header">Login Screens:</h6>
-                    <a class="dropdown-item" href="login.html">Login</a>
-                    <a class="dropdown-item" href="register.html">Register</a>
-                    <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="students.php">
-                    <i class="fas fa-fw fa-student-area"></i>
-                    <span>Student</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="layouts.php">
-                    <i class="fas fa-fw fa-layout"></i>
-                    <span>Room Layouts</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="surveys.php">
-                    <i class="fas fa-fw fa-survey"></i>
-                    <span>Survey</span></a>
-            </li>
-        </ul>
+    <?php include_once('sidebar.php') ?>
 
         <div id="content-wrapper">
 
@@ -117,7 +46,7 @@
                     <li class="breadcrumb-item active">Overview</li>
                 </ol>
                 <br>
-                
+
                 <?php
                 error_reporting(E_ALL);
                 ini_set('display_errors', 1);   
@@ -150,69 +79,93 @@
                     <!-- Add User Example-->
                     <div class="container">
                         <div class="addUserDiv col-lg-6">
-                            
-                                <label>
+
+                            <label>
                               <H1>
                                  Add a user below <br>   
                               </H1>
                            </label>
 
-                                <!-- Add User Example------------------------------->
-                                <form  action="" method="POST">
-                                   
-                                    <div class="form-group">
-                                        <label for="firstname">First Name
+                            <!-- Add User Example------------------------------->
+                            <form action="" method="POST">
+
+                                <div class="form-group">
+                                    <label for="firstname">First Name
                                            <input required type="text" class="form-control" name="firstname" placeholder="Enter first name">
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="lastname">Last Name
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname">Last Name
                                             <input required type="text" class="form-control" name="lastname" placeholder="Enter last name">   
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="username">Username
+                                </div>
+                                <div class="form-group">
+                                    <label for="username">Username
                                             <input required type="text" class="form-control" name="username" placeholder="Enter username">
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email
                                             <input required type="text" class="form-control" name="email" placeholder="Enter email">
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Password
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password
                                             <input required type="password" name="password" class="form-control" id="password" placeholder="Enter password">
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="gradeyear">Grade Year
-                                            <input required type="text" class="form-control" name="gradeyear" placeholder="Enter grade year">
-                                        </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="major">Major
+                                </div>
+                                <div class="form-group">
+                                    <label for="gradeyear">Grade Year</label>
+                                    <select name="gradeyear" required>
+                                       <option value="Freshman">Freshman</option>
+                                       <option value="Sophomore">Sophomore</option>
+                                       <option value="Junior">Junior</option>
+                                       <option value="Senior">Senior</option>
+                                       <option value="Super Senior">Super Senior</option>
+                                       <option value="Graduate">Graduate</option>
+                                       <option value="Other">Other</option>
+                                       <option value="Prefer not to say">Prefer not to say</option>
+                                   </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="major">Major
                                             <input required type="text" class="form-control" name="major" placeholder="Enter major">
                                         </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="gender">Gender
-                                            <input required type="text" class="form-control" name="gender" placeholder="Enter gender">
-                                        </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="race">Race
-                                            <input required type="text" class="form-control" name="race" placeholder="Enter race">
-                                        </label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="ethnicity">Ethnicity
-                                            <input required type="text" class="form-control" name="ethnicity" placeholder="Enter ethnicity">
-                                        </label>
-                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Gender</label>
+                                    <select name="gender" required>
+                                       <option value="Male">Male</option>
+                                       <option value="Female">Female</option>
+                                       <option value="Other">Other</option>
+                                       <option value="Prefer not to say">Prefer not to say</option>
+                                   </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="race">Race</label>
+                                    <select name="race" required>
+                                       <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
+                                       <option value="Asian">Asian</option>
+                                       <option value="Black or African American">Black or African American</option>
+                                       <option value="Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander</option>
+                                       <option value="White">White</option>
+                                       <option value="Other">Other</option>
+                                       <option value="Prefer not to say">Prefer not to say</option>
+                                   </select>
+                                </div>
 
-                                    <input type="submit" value="submit" class="btn btn-primary">
-                                </form>
+                                <div class="form-group">
+                                    <label for="ethnicity">Ethnicity</label>
+                                    <select name="ethnicity" required>
+                                       <option value="Hispanic or Latino">Hispanic or Latino</option>
+                                       <option value="Not Hispanic or Latino">Not Hispanic or Latino</option>
+                                       <option value="Other">Other</option>
+                                       <option value="Prefer not to say">Prefer not to say</option>
+                                   </select>
+                                </div>
+
+                                <input type="submit" value="submit" class="btn btn-primary">
+                            </form>
                         </div>
                     </div>
                     <br>
