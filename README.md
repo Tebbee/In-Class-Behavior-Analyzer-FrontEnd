@@ -2,9 +2,9 @@
 
 **Team members:**
   
-  Ben Lawson, 
-  Cody Tebbe, and
-  Vanessa Covarrubias
+  * Ben Lawson
+  * Cody Tebbe
+  * Vanessa Covarrubias
 
 ## About
 
