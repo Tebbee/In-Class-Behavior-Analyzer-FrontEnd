@@ -28,6 +28,27 @@
 
 <body id="page-top">
 
+    <div>
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Page level plugin JavaScript-->
+        <script src="vendor/chart.js/Charts.min.js"></script>
+        <script src="vendor/datatables/jquery.dataTables.js"></script>
+        <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin.min.js"></script>
+
+        <!-- Demo scripts for this page-->
+        <script src="js/demo/datatables-demo.js"></script>
+        <script src="js/demo/chart-area-demo.js"></script>
+    </div>
+
     <?php include_once('navbar.php') ?>
 
     <div id="wrapper">
@@ -46,52 +67,52 @@
                     <li class="breadcrumb-item active">Overview</li>
                 </ol>
 
-                <!-- WHAT TO ADD.........-->
-    
-                <div class="container">
-                        <div class="addClassDiv col-lg-6">
+                <!-- Add Class Example -->
 
-                            <label>
+                <div class="container">
+                    <div class="addClassDiv col-lg-6">
+
+                        <label>
                               <H1>
                                  Add a class below <br>   
                               </H1>
-                           </label>
+                        </label>
 
-                            <!-- Add User Example------------------------------->
-                            <form action="" method="POST">
+                        <form action="" method="POST">
 
-                                <div class="form-group">
-                                    <label for="course">Course
-                                           <input required type="text" class="form-control" name="course" placeholder="Enter course name">
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="section">Section
-                                           <input required type="text" class="form-control" name="section" placeholder="Enter section">
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="startDate">Start Date
+                            <div class="form-group">
+                                <label for="course">Course
+                                            <input required type="text" class="form-control" name="course" placeholder="Enter course name">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="section">Section
+                                            <input required type="text" class="form-control" name="section" placeholder="Enter section">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="startDate">Start Date
                                             <input required type="text" class="form-control" name="startDate" placeholder="Enter start date">   
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="endDate">End Date
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="endDate">End Date
                                             <input required type="text" class="form-control" name="endDate" placeholder="Enter end date">
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="startTime">Start Time
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="startTime">Start Time
                                             <input required type="text" class="form-control" name="startTime" placeholder="Enter start time">   
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="endTime">End Time
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="endTime">End Time
                                             <input required type="text" class="form-control" name="endTime" placeholder="Enter end time">
-                                        </label>
-                                </div>
-                                <div class="form-group">
-                                    <label for="days">Days</label>
+                                </label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="days">Days</label>
                                     <select name="days" required>
                                        <option value="monday">MWF</option>
                                        <option value="tuesday">TR</option>
@@ -102,17 +123,15 @@
                                        <option value="r">Thursday</option>
                                        <option value="mtwr">MTWR</option>
                                    </select>
-                                </div>
-
+                            </div>
                                 <input type="submit" value="submit" class="btn btn-primary">
-                            </form>
-                        </div>
+                        </form>
                     </div>
-                    <!---------------->
+                </div>
 
             </div>
 
-            <!-- Sticky Footer -->
+            <!-- Footer -->
             <footer class="sticky-footer">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
@@ -125,7 +144,6 @@
         <!-- /.content-wrapper -->
 
     </div>
-    <!-- /#wrapper -->
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -151,25 +169,6 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Page level plugin JavaScript-->
-    <script src="vendor/chart.js/Charts.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
-
-    <!-- Demo scripts for this page-->
-    <script src="js/demo/datatables-demo.js"></script>
-    <script src="js/demo/chart-area-demo.js"></script>
-    </div>
 </body>
 
 </html>
