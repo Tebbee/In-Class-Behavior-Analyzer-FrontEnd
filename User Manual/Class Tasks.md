@@ -14,7 +14,6 @@ This manual has information on creating, viewing, editing, & deleting classes
 ## Viewing your Classes 
 #### Step One: 
 	Click on View your classes tab 
-	
 #### Step Two:
 	If you wish to search for a specific class you may input the class information on the search bar.
 
