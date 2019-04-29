@@ -6,6 +6,8 @@
   * Cody Tebbe
   * Vanessa Covarrubias
 
+If you have any questions you may contact [Vanessa Covarrubias](mailto:vmcovarrubia@bsu.edu)  
+
 ## About
 
 The client, Gary, wants a mobile application to be installed by students in a specific classroom. Students and instructors will be able to sign up. They'll be able to give their demographic information. Their movements will be tracked inside a pre-configured classroom. At the end of the class, they will be presented with a survey about their specific movements. 
