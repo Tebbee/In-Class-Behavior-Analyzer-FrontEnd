@@ -1,37 +1,39 @@
 # Student User Manual 
-This manual has information on enrolling, viewing, searching, & deleting students.
+This manual has information on enrolling, viewing, searching, adding, & deleting students.
 
-## Creating a Class
+## Enrolling a student
 #### Step One: 
-	Click on Create a class tab 
+	Click on Enroll Students tab. 
 #### Step Two:
-	Input all the necessary information.
-	On a PC to select multiple day press and hold the Ctrl key then click on each day you want to select.
-	On a Mac to select multiple day press and hold the Command key then click on each day you want to select.
+	Select student from the Student dropdown list.
 #### Step Three:
-	Click submit button to create the class. 
-	
-## Viewing your Classes 
-#### Step One: 
-	Click on View your classes tab 
-#### Step Two:
-	If you wish to search for a specific class you may input the class information on the search bar.
-
-## Editing a Class
-#### Step One: 
-	Click on View your classes tab 
-#### Step Two:
-	Click on edit button on the class you wish to edit.
-#### Step Three:
-	Input all the necessary chnages.
-	On a PC to select multiple day press and hold the Ctrl key then click on each day you want to select.
-	On a Mac to select multiple day press and hold the Command key then click on each day you want to select.
+	Select the class you wish to enroll the studnt in Class enrolled dropdown list.
 #### Step Four:
-	Click submit button to edit the class. 
-	(If you wish to not edit a class simply click on the dashboard link on the top left corner of the page.)
+	Click submit to enroll the student.
 	
-## Deleting a Class
+## Viewing students
 #### Step One: 
-	Click on View your classes tab 
+	Click on View your classes tab. 
 #### Step Two:
-	Click on remove button on the class you wish to delete.
+	Click the view button on the class you wish to see. 
+	If you wish to search for a specific student you may input the students' information on the search bar.
+
+## Adding a student
+#### Step One: 
+	Click on View your classes tab. 
+#### Step Two:
+	Click the view button on the class you wish to see. 
+#### Step Three:
+	Enter the necessary information.
+#### Step Four:
+	Click on the add user button to add a student. 
+	(Student must be enrolled in order to be added.)
+	(If you wish to make any chnages you may click on the Back to Dashboard button at the button of the page.)
+	
+## Deleting a student
+#### Step One: 
+	Click on View your classes tab. 
+#### Step Two:
+	Click the view button on the class you wish to see. 
+#### Step Three:
+	Click the remove button to delete a student.	
