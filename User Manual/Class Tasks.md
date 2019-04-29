@@ -23,7 +23,7 @@ This manual has information on creating, viewing, editing, & deleting classes
 #### Step Two:
 	Click on edit button on the class you wish to edit.
 #### Step Three:
-	Input all the necessary chnages.
+	Input all the necessary changes.
 	On a PC to select multiple day press and hold the Ctrl key then click on each day you want to select.
 	On a Mac to select multiple day press and hold the Command key then click on each day you want to select.
 #### Step Four:
