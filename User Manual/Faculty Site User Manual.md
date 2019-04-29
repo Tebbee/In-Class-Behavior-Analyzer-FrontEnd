@@ -13,7 +13,7 @@ A few resources to get you started:
 # Tasks Guide
 [Information on Class Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Class%20Tasks.md)
 
-[Information on Student Tasks](https://html.com/)
+[Information on Student Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Student%20Tasks.md)
 
 [Information on Survey Tasks](https://html.com/)
 
