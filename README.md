@@ -22,4 +22,4 @@ Email: gpavlech@bsu.edu
 Last Release: 04/29/2019
 
 ## User Manual
-The user manual for information about running the faculty website is located [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/Faculty%20Site%20User%20Manual.md).
+The user manual for information about running the faculty website is located [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Faculty%20Site%20User%20Manual.md).
