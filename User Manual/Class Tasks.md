@@ -1,7 +1,7 @@
 # Class User Manual 
 This manual has information on creating, viewing, editing, & deleting classes
 
-## Creating a Class
+# Creating a Class
 #### Step One: 
 	Click on Create a class tab 
 #### Step Two:
@@ -11,13 +11,13 @@ This manual has information on creating, viewing, editing, & deleting classes
 #### Step Three:
 	Click submit button to create the class. 
 	
-## Viewing your Classes 
+# Viewing your Classes 
 #### Step One: 
 	Click on View your classes tab 
 #### Step Two:
 	If you wish to search for a specific class you may input the class information on the search bar.
 
-## Editing a Class
+# Editing a Class
 #### Step One: 
 	Click on View your classes tab 
 #### Step Two:
@@ -30,7 +30,7 @@ This manual has information on creating, viewing, editing, & deleting classes
 	Click submit button to edit the class. 
 	(If you wish to not edit a class simply click on the dashboard link on the top left corner of the page.)
 	
-## Deleting a Class
+# Deleting a Class
 #### Step One: 
 	Click on View your classes tab 
 #### Step Two:
