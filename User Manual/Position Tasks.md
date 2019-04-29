@@ -7,4 +7,5 @@ This manual has information on viewing & searching for positions information.
 #### Step Two:
 	Click on Positions to see positions table.
   To search for a specific student, enter the student's information on the search bar.
+  
   To search for a specific date, enter the date's information on the search bar.
