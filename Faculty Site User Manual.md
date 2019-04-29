@@ -13,7 +13,7 @@ A few resources to get you started:
 ## Guide
 
 ### Task 1: Create a Class
-#### Step One: 
+Step One: 
 	Click on Create a class tab.
 	Input all the necessary class information. 
 	On a MAC to select mutiple days press and hold the command then left-click on each day you want to select.
