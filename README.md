@@ -26,8 +26,8 @@ Last Release: 04/29/2019
 ## User Manual
 Any information explaining the features of the system and how to do them step-by-step may be found [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Faculty%20Site%20User%20Manual.md).
 
-## Development manual for future development team
+## Development Manual for Future Development Team
 Any information explaining the technology aspects of the system and folder structure may be found [here](https://github.com/KarlMarx4701/In-Class-Behavior-Analyzer-Backend/blob/master/Documentation/DEVELOPMENT_MANUAL.md)
 
-## Deployment document for future maintainers
+## Deployment Document for Future Maintainers
 Any information for setup, installation, debugging, and running the server may be found [here](https://github.com/KarlMarx4701/In-Class-Behavior-Analyzer-Backend/blob/master/Documentation/USER_MANUAL.md)
