@@ -12,7 +12,11 @@ A few resources to get you started:
 
 # Tasks Guide
 [Class Tasks](https://html.com/)
+
 [Student Tasks](https://html.com/)
+
 [Survey Tasks](https://html.com/)
+
 [Position Tasks](https://html.com/)
+
 [Feedbback Tasks](https://html.com/)
