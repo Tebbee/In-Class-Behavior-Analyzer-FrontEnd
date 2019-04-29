@@ -37,11 +37,11 @@ Any information for setup, installation, debugging, and running the server may b
 
 
 # Releases 
-You can find the first release [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.0.0)
+* You can find the first release [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.0.0).
 
-You can find the second release [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.1.0)
+* You can find the second release [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.1.0).
 
-You can find the third release [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v3.0.0)
+* You can find the third release [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v3.0.0).
 
-* For more information on what a product release is you can visit [Product Release](https://www.techopedia.com/definition/24628/product-release-software).
+For more information on what a product release is you can visit [Product Release](https://www.techopedia.com/definition/24628/product-release-software).
 
