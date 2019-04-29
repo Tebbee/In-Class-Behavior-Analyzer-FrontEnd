@@ -6,4 +6,4 @@ This manual has information on viewing & searching for positions information.
 	Click on Navigation dropdown list on the top of the page.
 #### Step Two:
 	Click on Positions to see positions table.
-  To search for a specific student positions' information, enter the student's information on the search bar.
+  To search for a specific student, enter the student's information on the search bar.
