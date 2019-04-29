@@ -16,8 +16,8 @@ This manual has information on creating, adding questions, viewing questions, & 
 	Click the add button on the survey you wish to add questions to. 
 #### Step Three:  
         Select the survey you wish to add questions to.
-  	Select the type of question.
-  	Enter the question on the Prompt text box. 
+	Select the type of question.
+	Enter the question on the Prompt text box. 
 #### Step Four:
   	Click submit to add the question.
 You may add as many questions as you please during any time of the class. 
