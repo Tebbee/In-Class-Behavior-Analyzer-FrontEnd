@@ -24,7 +24,8 @@ Email: gpavlech@bsu.edu
 Last Release: 04/29/2019
 
 ## Accessing Code 
-You may access the code [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd).
+* You may access the code repository [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd).
+For more information on what a repository is you can visit [About repositories](https://help.github.com/en/articles/about-repositories).
 
 ## User Manual
 Any information explaining the features of the system and how to do them step-by-step may be found [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Faculty%20Site%20User%20Manual.md).
