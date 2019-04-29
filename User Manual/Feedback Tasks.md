@@ -1,7 +1,7 @@
 # Feedback User Manual 
 This manual has information on viewing & searching for feedback information.
 
-# Viewing Positions
+# Viewing Feedback
 #### Step One: 
 	Click on Navigation dropdown list on the top of the page.
 #### Step Two:
