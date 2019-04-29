@@ -18,6 +18,7 @@ Email: gpavlech@bsu.edu
 
 ## Accessing
 [Faculty Website Login](http://icba.us-east-2.elasticbeanstalk.com/accounts/login/?next=/faculty/)
+
 Last Release: 04/19/2019
 
 ## User Manual
