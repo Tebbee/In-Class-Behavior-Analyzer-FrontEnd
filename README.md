@@ -17,10 +17,8 @@ Title: Director of Interactive Learning Spaces and Faculty Learning Communities 
 Email: gpavlech@bsu.edu
 
 ## Accessing
+[Faculty Website Login](http://icba.us-east-2.elasticbeanstalk.com/accounts/login/?next=/faculty/)
+Last Release: 04/19/2019
 
-* Access the website by copying and pasting the following link on your prefered browser:
-157.230.191.243
-
-## Copyright and License
-
-Copyright 2019
+## User Manual
+The user manual for information about running the faculty website is located [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/Faculty%20Site%20User%20Manual.md).
