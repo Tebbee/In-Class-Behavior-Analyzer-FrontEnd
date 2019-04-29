@@ -1,4 +1,5 @@
-# Class User Manual - Creating, Editing, Deleting, Viewing Classes
+# Class User Manual 
+This manual has information on creating, viewing, editing, & deleting classes
 
 ### Task 1: Download the application
 #### Step One: 
