@@ -11,12 +11,12 @@ A few resources to get you started:
 - [Django](https://www.djangoproject.com/)
 
 # Tasks Guide
-[Class Tasks](https://html.com/)
+[Information on Class Tasks](https://html.com/)
 
-[Student Tasks](https://html.com/)
+[Information on Student Tasks](https://html.com/)
 
-[Survey Tasks](https://html.com/)
+[Information on Survey Tasks](https://html.com/)
 
-[Position Tasks](https://html.com/)
+[Information on Position Tasks](https://html.com/)
 
-[Feedbback Tasks](https://html.com/)
+[Information on Feedback Tasks](https://html.com/)
