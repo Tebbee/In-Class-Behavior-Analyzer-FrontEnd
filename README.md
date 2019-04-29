@@ -18,10 +18,13 @@ Contact: Gary Pavlechko
 Title: Director of Interactive Learning Spaces and Faculty Learning Communities at Ball State University
 Email: gpavlech@bsu.edu
 
-## Accessing
+## Accessing Website
 [Faculty Website Login](http://icba.us-east-2.elasticbeanstalk.com/accounts/login/?next=/faculty/)
 
 Last Release: 04/29/2019
+
+## Accessing Code 
+Code may be found [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd)
 
 ## User Manual
 Any information explaining the features of the system and how to do them step-by-step may be found [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Faculty%20Site%20User%20Manual.md).
