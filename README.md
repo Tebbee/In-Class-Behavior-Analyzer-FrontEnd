@@ -25,6 +25,7 @@ Last Release: 04/29/2019
 
 ## Accessing Code 
 * You may access the code repository [here](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd).
+
 For more information on what a repository is you can visit [About repositories](https://help.github.com/en/articles/about-repositories).
 
 ## User Manual
