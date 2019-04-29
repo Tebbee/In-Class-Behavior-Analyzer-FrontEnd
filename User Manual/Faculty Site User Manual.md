@@ -15,7 +15,7 @@ A few resources to get you started:
 
 [Information on Student Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Student%20Tasks.md)
 
-[Information on Survey Tasks](https://html.com/)
+[Information on Survey Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Survey%20Tasks.md)
 
 [Information on Position Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Position%20Tasks.md)
 
