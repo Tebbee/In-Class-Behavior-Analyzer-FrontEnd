@@ -11,7 +11,7 @@ A few resources to get you started:
 - [Django](https://www.djangoproject.com/)
 
 # Tasks Guide
-[Information on Class Tasks](https://html.com/)
+[Information on Class Tasks](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Class%20Tasks.md)
 
 [Information on Student Tasks](https://html.com/)
 
