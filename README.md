@@ -19,7 +19,7 @@ Email: gpavlech@bsu.edu
 ## Accessing
 [Faculty Website Login](http://icba.us-east-2.elasticbeanstalk.com/accounts/login/?next=/faculty/)
 
-Last Release: 04/19/2019
+Last Release: 04/29/2019
 
 ## User Manual
 The user manual for information about running the faculty website is located [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/Faculty%20Site%20User%20Manual.md).
