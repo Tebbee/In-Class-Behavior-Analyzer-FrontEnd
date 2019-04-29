@@ -34,3 +34,10 @@ Any information explaining the technology aspects of the system and folder struc
 
 ## Deployment Document for Future Maintainers
 Any information for setup, installation, debugging, and running the server may be found [here](https://github.com/KarlMarx4701/In-Class-Behavior-Analyzer-Backend/blob/master/Documentation/USER_MANUAL.md)
+
+
+# Releases 
+[First Release](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.0.0)
+[Second Release](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v1.1.0)
+[Third Release](https://github.com/VanessaC97/In-Class-Behavior-Analyzer-FrontEnd/releases/tag/v3.0.0)
+
