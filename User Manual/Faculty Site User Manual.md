@@ -19,4 +19,4 @@ Information on Survey tasks can be found [here](https://github.com/Tebbee/In-Cla
 
 Information on Position tasks can be found [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Position%20Tasks.md)
 
-Information on Feedback tasks can be found[here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Feedback%20Tasks.md)
+Information on Feedback tasks can be found [here](https://github.com/Tebbee/In-Class-Behavior-Analyzer-FrontEnd/blob/master/User%20Manual/Feedback%20Tasks.md)
